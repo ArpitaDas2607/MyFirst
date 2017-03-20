@@ -16,7 +16,8 @@ def bear_room():
             dead("The bear looks at you and slaps your face off.")
     elif choice == "Taunt bear" and not bear_moved:
             print "The bear has moved from the door. You can go through and find redemption"
-#we are now changing the value of bear_moved
+#we are now changing the value of bear_moved, but why so? which one of these values will be considered?
+
             bear_moved = True
     elif choice == "Taunt bear" and bear_moved:
             dead("The bear gets pissed and chews off your entire leg off")
